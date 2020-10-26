@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>try</title>
+
+    <link  rel='stylesheet' href='fonts/font-awesome-4.7.0/css/font-awesome.min.css'>
+    <link  rel='stylesheet' href='css/bootstrap-grid.min.css'>
+    <link  rel='stylesheet' href='css/bootstrap-reboot.min.css'>
+    <link  rel='stylesheet' href='css/bootstrap.min.css'>
+    <link  rel='stylesheet' href='css/main.css'>
+    <link  rel='stylesheet' href='css/util.css'>
+
+    <link  rel='stylesheet' href='css/style.css'>
+</head>
+<body >
+    <header class="col-12">
+        <div class="card text-white bg-secondary mb-12" >
+            <div class="card-body" style="text-align: center">
+                <h5 class="card-title">Résolution des problèmes en stratégies pures</h5>
+                <hr/>
+                <p class="card-text">
+                    <a href="#dominance">dominance et issue du jeu</a>
+                    <br/><a href="#nash">Meilleures réponses et équilibre de Nash</a>
+                    <br/><a href="#pareto">Niveau de sécurité et Optimum de Pareto</a>
+                </p>
+            </div>
+        </div>
+
+    </header>
+    <div class="middle">
+    <div class="container problem">
+        <div class="up-resoudre">
+            <div class="dynamic-element" style="display: none">
+
+                <table border="1" >
+                    <tr class="cl">
+                        <th>A</th>
+                        <td><input class="form-control j1" type="number" value="0"><input class="form-control j2" type="number" value="0"></td>
+                        <td><input class="form-control j1" type="number" value="0"><input class="form-control j2" type="number" value="0"></td>
+                    </tr>
+                    <th></th>
+
+                </table>
+
+        </div>
+
+            <div class="">
+
+            <table class="tabc table table-bordered" border="1">
+                <thead class="dynamic-head">
+                <tr class="cl" id="first-line"><td><h6 style="float: right"><a href="#" class="badge badge-primary">Joueur B</a></h6><br><h6 style="float: left"><a href="#" class="badge badge-success">Joueur A</a></h6></td><th>B1</th><th>B2</th></tr>
+                </thead>
+                <tbody class="dynamic-stuff">
+                <tr class="cl"><th>A1</th><td><input class="form-control j1" type="number" value="0"><input class="form-control j2" type="number" value="0"></td><td><input class="form-control j1" type="number" value="0"><input class="form-control j2"  type="number" value="0"></td></tr>
+                <tr class="cl"><th>A2</th><td><input class="form-control j1" type="number" value="0"><input class="form-control j2" type="number" value="0"></td><td><input class="form-control j1" type="number" value="0"><input class="form-control j2" type="number" value="0"></td></tr>
+
+                </tbody>
+
+            </table>
+                <div class="col-12" style="display: inline-block">
+                    <div  class="col-5" style="float: left">
+                        <button type="button" class="btn btn-info add-one-line col-5"><i class="fa fa-plus"></i> Ajouter ligne </button><br/>
+                        <button type="button" class="btn btn-danger del-one-line col-5"><i class="fa fa-trash"></i> Supprimer ligne </button>
+                    </div>
+
+                    <div class="offset-9 col-5" >
+                        <button type="button" class=" btn btn-info add-one-col col-5"><i class="fa fa-plus"></i>Ajouter colonne  </button><br/>
+                        <button type="button" class=" btn btn-danger del-one-col col-5"><i class="fa fa-trash"></i> Supprimer colonne  </button>
+                    </div>
+                </div>
+
+
+            <div class="trying">
+
+            </div>
+
+        </div >
+        </div>
+
+        <div class="resolution">
+            <button type="button" class="btn btn-block btn_res " type="submit" name="resoudre" style="background: teal"> <i class="fa fa-puzzle-piece"></i> Résoudre</button>
+        </div>
+
+
+    </div>
+    <div class="container" style="">
+        <div class="solution" style="display: none">
+            <div id="dominance">
+                <div class="card-body" style="text-align: center">
+                    <h5 class="card-title">dominance et issue du jeu</h5>
+                </div>
+
+            </div>
+            <div id="nash">
+                <div class="card-body" style="text-align: center">
+                    <h5 class="card-title">Equilibre de Nash</h5>
+                </div>
+            </div>
+            <div id="pareto">
+                <div class="card-body" style="text-align: center">
+                    <h5 class="card-title">Optimum pareto et niveau de sécurité</h5>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+        <footer class="col-12">
+            <div class="card text-white bg-secondary mb-12" >
+                <div class="card-body" style="text-align: center">
+                    <h5 class="card-title">OKIRIM Mounir</h5>
+                    <p>Solution developpée dans le cadre du module Game Theory, Master IV - USTHB</p>
+                </div>
+            </div>
+
+        </footer>    </div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/insert.js"></script>
+</body>
+</html>

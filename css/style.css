@@ -1,0 +1,106 @@
+td,th{
+    width: 100px;
+
+}
+td input, th input{
+
+}
+thead th{
+    /*background: rgba(252, 127, 80, 0.3);*/
+    text-align: center;
+    font-size: 20px;
+    background: rgba(57, 0, 255, 0.17);
+}
+tbody tr th{
+    text-align: center;
+    font-size: 20px;
+    background: rgba(138, 255, 42, 0.25);
+
+}
+
+
+.j1,.j2{
+
+    font-weight: bold;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 3px;
+    width:50%;
+    border: aqua 2px solid;
+    display: inline-block;
+    padding: 0;
+
+
+}
+.j1{
+    color: limegreen;
+    background: lightyellow;
+    border-color: #50c24b;
+
+}
+.j2{
+    color: #4062ba;
+   /* background: rgba(252, 127, 80, 0.3);*/
+    border-color: #4062ba;
+
+}
+
+.up-resoudre{
+    border: 1px silver dashed;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.resolution{
+    padding: 20px;
+    margin-left: 70%;
+}
+
+
+
+.problem{
+    margin-top: 50px;
+}
+
+/* Hide HTML5 Up and Down arrows. */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+}
+.card-text a{
+    color: #fc7f50;
+}
+.card-text a:hover{
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+}
+
+.middle{
+    margin-top:100px;
+}
+header{
+    margin-bottom: 0px;
+    top: 0px;
+    position: fixed;
+}
+footer{
+
+    bottom: 0;
+    background-color: #c2beb3;
+    color: white;
+    text-align: center;
+
+
+}
+footer:hover,footer p:hover{
+    font-weight: bolder;
+    color: #efffac;
+    font-size: 20px;
+}
+
+#dominance{
+   border: 2px #ffc107;
+}
